@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+li, a{
+	font-family: "rockwell";
+	font-weight: 500;
+	font-size: 20px;
+	color: black;
+}
+.texto{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	width: 90%;
+	margin-left:5%;
+	margin-right:5%;
+	background-color:white;
+	font-size:40px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+main{
+
+	margin-top:10px;
+	margin-bottom:0px;
+}
+.bottombar{
+	color:white;
+	text-align: center;
+	padding-top:50px;
+	position:relative;
+	bottom:0;
+	height:150px;
+	width:100%;
+	background-color:#191919;
+}
+.parallax1{
+	height:1080px;
+	width:100%;
+	background-image:url("img1.png");
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.parallax2{
+
+	height:1080px;
+	background-image:url("img2.png");
+	background-attachment:fixed;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.parallax3{
+	height:1080px;
+	background-image:url("img3.png");
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.parallax4{
+	height:1080px;
+	background-image:url("img4.png");
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+
+
+.topnav {
+	position:fixed;
+	width:100%;
+  overflow: hidden;
+  background-color:#5E9FA3;
+  display:flex;
+  justify-content:space-between;
+  flex-flow:row wrap;
+	top:0px;
+
+}
+#menu{
+	padding-top:1.5%;
+	margin-right:5%;
+	
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.topnav a:hover {
+  color: yellow;
+}
+.active img{
+	height:90px;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: relative;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: flex;
+  }
+}
+
+
+
+
+
+/* CONTATO*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container2 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+	width:60%;
+	
+}
+.container_formulario{
+	display:flex;
+	width:100%;
+	font-family:"DK Lemon Yellow Sun";
+	font-size: 2vw;
+}
+.container_contatos{
+	width:40%;
+	 border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 10%;
+	font-size:1.5vw;
+}
+.container_contatos p{
+	font-size:2vw;
+}
